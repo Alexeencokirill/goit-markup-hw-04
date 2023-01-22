@@ -278,6 +278,18 @@ button {
     width: 264px;
 }
 
+.features-icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 112px;
+    margin-bottom: 8px;
+
+    background-color: var(--light-color);
+    border-radius: 4px;
+}
+
 /* ================== Our features ================ */
 
 /* ================== Activities ================== */
@@ -452,7 +464,7 @@ button {
 }
 
 .brand-icon {
-    
+    fill:currentColor;
 }
 
 /* ================= Customers ==================== */
