@@ -119,13 +119,13 @@ button {
     color: var(--primary-brand-color);
     cursor: pointer;
     padding: 12px 24px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.btn-filter:hover {
+.btn-filter:hover,
+.btn-filter:focus {
     background: var(--pressed-color);
     color: var(--white-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);;
 }
 
 .container {
